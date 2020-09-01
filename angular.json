@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "openmarket-seller"
+    }
+  },
+  "defaultProject": "openmarket-seller",
+  "cli": {
+    "analytics": false
+  }
 }
