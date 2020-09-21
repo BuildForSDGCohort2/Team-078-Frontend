@@ -4,12 +4,12 @@ const path = require("path");
 
 const app = express();
 
-app.use(express.static(__dirname + "/dist"));
+app.use(express.static(__dirname + "/dist/openmarket-seller"));
 
-app.listen(process.env.PORT || 8980);
+app.listen(process.env.PORT || 8080);
 
 app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname + "/dist/index.html"));
+  res.sendFile(path.join(__dirname + "/dist/openmarket-seller/index.html"));
 });
 
-Console.log("apps is running");
+console.log("apps is running");

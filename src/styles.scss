@@ -3,8 +3,8 @@
 @use "colors";
 
 .iconify {
-  width: 35px;
-  height: 35px;
+  width: 1.2rem;
+  height: 1.2rem;
   color: colors.$primary-color;
 }
 
@@ -71,14 +71,17 @@ h6 {
   font-family: "Rubik", sans-serif !important;
 }
 
-//icons
-.iconify {
-  width: 35px;
-  height: 35px;
-  color: #7e7e7e;
-}
-
 //fronts
 .light-font {
   font-weight: lighter;
+}
+
+// font color
+.dark-color {
+  color: black;
+}
+
+//backgound-color
+.bg-white {
+  background-color: white;
 }
